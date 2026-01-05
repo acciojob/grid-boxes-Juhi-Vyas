@@ -1,7 +1,7 @@
 #grid{
 	display: grid;
-	grid-auto-rows: repeat(5, 124px);
-	gap: 2px;
+	grid-template-rows: repeat(5, 124px);
+	gap: 5px;
 	grid-template-areas:
 		"item1 item1 item1 item1"
 	    "item2 item3 item4 item4"
